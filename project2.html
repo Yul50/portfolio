@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>쯔꾸르 게임 <나와 너> 기획안</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+
+  <style>
+
+    .project-page {
+      max-width: 1000px;
+      margin: 0 auto;
+
+      padding: 120px 5%;
+    }
+
+    .project-header {
+      margin-bottom: 4rem;
+    }
+
+    .project-category {
+      display: inline-block;
+
+      padding: 0.5rem 1rem;
+
+      background: var(--color-secondary);
+      color: white;
+
+      border-radius: 999px;
+
+      font-size: 0.85rem;
+    }
+
+    .project-title {
+      margin-top: 1rem;
+
+      font-size: 3rem;
+
+      color: var(--color-primary);
+    }
+
+    .project-date {
+      margin-top: 0.5rem;
+
+      color: var(--color-text-sub);
+    }
+
+    .project-grid {
+      display: grid;
+
+      grid-template-columns:
+      repeat(auto-fit, minmax(300px, 1fr));
+
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: white;
+
+      border-left: 6px solid var(--color-secondary);
+
+      border-radius: var(--radius-lg);
+
+      padding: 2rem;
+
+      box-shadow:
+      0 8px 24px rgba(85,107,93,0.08);
+
+      transition:
+      transform .3s ease,
+      box-shadow .3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-6px);
+
+      box-shadow:
+      0 12px 30px rgba(85,107,93,0.15);
+    }
+
+    .project-card h3 {
+      margin-bottom: 1rem;
+
+      color: var(--color-secondary);
+    }
+
+    .project-card p,
+    .project-card li {
+      color: var(--color-text-sub);
+      line-height: 1.8;
+    }
+
+    .project-card ul {
+      padding-left: 1.2rem;
+    }
+
+    .back-button {
+      display: inline-block;
+
+      margin-top: 3rem;
+
+      padding: 0.8rem 1.8rem;
+
+      background: var(--color-secondary);
+      color: white;
+
+      text-decoration: none;
+
+      border-radius: var(--radius);
+
+      transition:
+      background-color .3s ease;
+    }
+
+    .back-button:hover {
+      background: var(--color-primary);
+    }
+
+    @media (max-width:480px){
+
+      .project-title{
+        font-size:2rem;
+      }
+
+      .project-page{
+        padding:100px 8%;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <main class="project-page">
+
+    <header class="project-header">
+
+      <span class="project-category">
+        수업 과제
+      </span>
+
+      <h1 class="project-title">
+        쯔꾸르 게임 <나와 너> 기획안
+      </h1>
+
+      <p class="project-date">
+        2025년 4월 7일~2025년 4월 29일
+      </p>
+
+    </header>
+
+    <section class="project-grid">
+
+      <article class="project-card">
+
+        <h3>프로젝트 개요</h3>
+
+        <p>
+            신선하고 새로운 콘셉 및 연출의 쯔꾸르 게임을 기획하였습니다. 
+            3D와 2D를 접목시킨 형태의 스토리 중심 게임이며 기획부터 제작, 
+            발표까지 전 과정을 단독으로 진행하였습니다.
+        </p>
+
+      </article>
+
+      <article class="project-card">
+
+        <h3>역할</h3>
+
+        <ul>
+          <li>기획</li>
+          <li>콘텐츠 제작</li>
+          <li>발표 자료 제작</li>
+          <li>최종 발표</li>
+        </ul>
+
+      </article>
+
+      <article class="project-card">
+
+        <h3>기획 의도</h3>
+
+        <p>
+          3d와 2d를 접목한 신선한 경험을 플레이어에게 전달하고
+          쯔꾸르 게임계의 신드롬을 일으키기 위해 기획하였습니다.
+        </p>
+
+      </article>
+
+      <article class="project-card">
+
+        <h3>성과</h3>
+
+        <p>
+         독창적인 아이디어를 교수님께 인정 받아 긍정적인 평가를 받았습니다.
+        </p>
+
+      </article>
+
+    </section>
+
+    <a href="index.html" class="back-button">
+      ← 포트폴리오로 돌아가기
+    </a>
+
+  </main>
+
+</body>
+</html>
